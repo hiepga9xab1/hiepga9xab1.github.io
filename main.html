@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Top 10 St. Petersburg attractions and experiences</h1>
+        <p class="lead">
+            "St. Petersburg has a true wealth of attractions and experiences to offer travelers, 
+            from spectacular Imperial palaces to quirky and absorbing museums, 
+            from boat trips along the city's majestic rivers and canals to walks in the footsteps of St. 
+            Petersburg's divterary and artistic greats."
+        </p>
+        <p class="author">Author: Nguyen Hoang Hiep - N33471</p>
+            <div>
+                <p class="pics" >1. The Hermitage (The Winter Palace)</p>  
+                <img src="./anh/hermitage-museum-in-st-petersburg.jpg" alt="">
+            <div>
+                <p class="pics" >2. The Mariinsky Theatre</p> 
+                <img src="./anh/mariinsky-theatre-in-st-petersburg.jpg" alt="">
+            </div>
+            <div>   
+                <p class="pics" >3. Rivers and canals of St. Petersburg by boat</p>
+                <img src="./anh/rivers-and-canals-of-st-petersburg-by-boat.jpg" alt="">
+            </div>
+            <div>
+                <p class="pics" >4. Peterhof</p>    
+                <img src="./anh/peterhof-near-st-petersburg.jpg" alt="">
+            </div>
+            <div>
+                <p class="pics" >5. St. Isaac's Cathedral & Colonnade</p>
+                <img src="./anh/st-isaacs-cathedral-and-colonnade-in-st-petersburg.jpg" alt="">
+            </div>
+    </div>
+    <div id="topcontrol" title="Scroll Back to Top" onclick="topFunction()" bis_skin_checked="1">
+        <img src="/anh/up.png" style="width:40px; height:40px">
+    </div>
+   
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("topcontrol");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        
+    </script>
+
+</body>
+</html>

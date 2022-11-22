@@ -1,0 +1,40 @@
+.content {
+    min-width: 500px;  
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+h1 {
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+
+.lead { 
+    font-style: italic;
+}
+
+.pics {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.author {
+    font: 400 20px 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+#topcontrol {
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    cursor: pointer; 
+    opacity: 1;
+} 
+
